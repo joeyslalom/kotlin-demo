@@ -1,4 +1,4 @@
-package github.joeyslalom.howto._01_bean
+package github.joeyslalom.howto._01_bean.kt
 
 class Bean {
     private var name: String

@@ -1,4 +1,4 @@
-package github.joeyslalom.howto._01_bean.java;
+package github.joeyslalom.howto._01_bean;
 
 public class Bean {
     private final String name;

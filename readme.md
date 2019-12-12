@@ -8,3 +8,4 @@ Kotlin Demo inspired by
 * Although you can reproduce many patterns in Kotlin you are already familiar with, it can be improved dramatically
 * Kotlin and Java live together in a project
 * IntelliJ has a convenient Java to Kotlin converter
+* In addition to reducing boilerplate, Kotlin makes classes conceptually more lightweight -> easier to use!
