@@ -1,6 +1,6 @@
 package github.joeyslalom.howto._02_properties
 
-// syntax
+// fix syntax
 private var prop: String = "..."
 fun getProp() = prop
 fun setProp(v: String) {
@@ -15,9 +15,9 @@ val os: String
     get() {
         if (_os == null) {
             println("Computing...")
-            _os = System.getProperty("os.name") +
-                    " v" + System.getProperty("os.version") +
-                    " (" + System.getProperty("os.arch") + ")"
+            _os = """
+                ${System.getProperty("os.name")} v${System.getProperty("os.version")} (${System.getProperty("os.arch")})
+                """.trimIndent()
         }
         return _os!!
     }
