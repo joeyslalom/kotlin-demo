@@ -28,3 +28,15 @@ Kotlin Demo inspired by
 * IDE can help find useless code, Kotlin has smart casts
 * `when` is helpful flow construct
 * sealed classes can represent the entire hierarchy so the compiler can know when all cases are covered
+
+05 expressions (demo)
+* prefer val over var
+* leverage kotlin library functions 
+* scope functions - e.g., `with`
+* builders mapOf(), Pair (infix to)
+* deconstruct fields (kotlin library functions on top of java's stdlib)
+* `if` is an expressions
+* `when` also an expression
+* remove the noise; noise is harmful to the brain
+* null-safe operator `?.`
+* elvis operator `?:`, not just a default, can also return
