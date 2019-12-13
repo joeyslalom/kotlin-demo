@@ -40,3 +40,11 @@ Kotlin Demo inspired by
 * remove the noise; noise is harmful to the brain
 * null-safe operator `?.`
 * elvis operator `?:`, not just a default, can also return
+
+06 functional
+* Kotlin is multi-paradigm and supports functional style
+* IntelliJ can help with converting to filter + map
+* `it` automatically declared
+* Kotlin is pragmatic and has sdtlib functions for side-effects
+* Lambda convention for last argument
+* `inline` functions are zero-cost, as are all the stdlib functions
